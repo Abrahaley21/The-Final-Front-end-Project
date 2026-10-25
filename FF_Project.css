@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #333;
+}
+.hero {
+    background: linear-gradient(135deg, #ffd6a5, #ffadad);
+}
+.hero p {
+    margin-bottom: 25px;
+}
+#catResults img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.cat-card {
+    height: 100%;
+    padding: 12px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+.cat-card:hover {
+    transform: translateY(-5px);
+}
+.cat-card button {
+    margin-top: 10px;
+}
+footer {
+    margin-top: 30px;
+}
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    #catResults img {
+        height: 220px;
+    }
+}
